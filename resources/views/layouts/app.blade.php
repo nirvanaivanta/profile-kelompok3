@@ -32,6 +32,7 @@
             <a href="/contact" class="block {{ request()->is('contact') ? 'text-yellow-300 font-semibold' : 'hover:text-red-200' }}">Contact</a>
         </div>
     </nav>
+    
     <!-- CONTENT -->
     <main class="container mx-auto px-6 py-10 flex-1">
         @yield('content')
