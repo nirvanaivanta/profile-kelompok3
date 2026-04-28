@@ -1,2 +1,5 @@
-<h1>Home</h1>
-<p>{{ $namaWebsite }}</p>
+@extends('layouts.app')
+
+@section('content')
+<!-- CONTENT -->
+@endsection

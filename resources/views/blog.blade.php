@@ -1,1 +1,5 @@
-<h1>Blog</h1>
+@extends('layouts.app')
+
+@section('content')
+<!-- CONTENT -->
+@endsection
