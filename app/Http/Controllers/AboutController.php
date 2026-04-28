@@ -18,8 +18,8 @@ class AboutController extends Controller
                     'deskripsi' => 'Nirvana adalah developer yang fokus pada pengembangan frontend dan backend dengan pendekatan clean code.'
                 ],
                 [
-                    'nama' => 'Cusnul Fitria',
-                    'nim' => '456',
+                    'nama' => 'Cusnul Fitriawati',
+                    'nim' => '25104413072',
                     'peran' => 'Fullstack',
                     'deskripsi' => 'Cusnul memiliki minat dalam desain UI dan implementasi fitur interaktif pada website.'
                 ],
