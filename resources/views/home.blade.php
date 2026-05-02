@@ -29,7 +29,7 @@
 
     <!-- Tim Pengembang Sejajar 4 -->
     <h3 style="text-align: center; color: #800000; margin-bottom: 30px;">Tim Pengembang</h3>
-    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 50px;">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-12">
         
         <!-- Anggota 1 -->
         <div style="background: white; text-align: center; padding: 20px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #eee;">
