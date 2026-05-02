@@ -6,26 +6,23 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
-     public function index()
+    public function index()
     {
         $artikel = [
             [
-                'judul' => 'Belajar Laravel',
-                'penulis' => 'Andi',
-                'tanggal' => '2026-04-01',
-                'isi' => 'Laravel adalah framework PHP...'
+                'judul' => 'Mysql',
+                'gambar' => 'mysql.jpeg',
+                'isi' => 'MySQL merupakan sistem manajemen basis data (database management system) yang digunakan untuk menyimpan dan mengelola data pada aplikasi web, sehingga data dapat diakses, diubah, dan dihapus dengan mudah dan terstruktur.'
             ],
             [
-                'judul' => 'Belajar Tailwind',
-                'penulis' => 'Budi',
-                'tanggal' => '2026-04-02',
-                'isi' => 'Tailwind adalah CSS utility...'
+                'judul' => 'Laravel',
+                'gambar' => 'laravel.jpeg',
+                'isi' => 'Laravel merupakan framework berbasis PHP yang berfungsi untuk membantu pengembang dalam membangun aplikasi web secara lebih cepat dan terstruktur dengan menggunakan konsep MVC, serta menyediakan berbagai fitur seperti routing, manajemen database, dan autentikasi.'
             ],
             [
-                'judul' => 'MVC Concept',
-                'penulis' => 'Citra',
-                'tanggal' => '2026-04-03',
-                'isi' => 'MVC adalah arsitektur...'
+                'judul' => 'Tailwind CSS',
+                'gambar' => 'tailwind.jpeg',
+                'isi' => 'Tailwind CSS merupakan framework CSS yang digunakan untuk mempermudah dan mempercepat proses pembuatan tampilan antarmuka website dengan menyediakan berbagai class siap pakai, sehingga pengembang tidak perlu menulis CSS dari awal.'
             ]
         ];
 

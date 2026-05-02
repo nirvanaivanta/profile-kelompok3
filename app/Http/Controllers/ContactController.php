@@ -8,45 +8,18 @@ class ContactController extends Controller
 {
     public function index()
     {
-        $anggota = [
-            [
-                'nama' => 'Nirvana Ivanta Phalosa Jaya',
-                'nim' => '24104410053',
-                'peran' => 'Fullstack',
-                'email' => 'nirvana@email.com',
-                'instagram' => '@nirvana',
-                'github' => 'github.com/nirvana',
-                'linkedin' => 'linkedin.com/in/nirvana'
-            ],
-            [
-                'nama' => 'Cusnul Fitria',
-                'nim' => '456',
-                'peran' => 'Fullstack',
-                'email' => 'cusnul@email.com',
-                'instagram' => '@cusnul',
-                'github' => 'github.com/cusnul',
-                'linkedin' => 'linkedin.com/in/cusnul'
-            ],
-            [
-                'nama' => 'Mohammad Yusuf Jamil Al Karim',
-                'nim' => '24100410092',
-                'peran' => 'Fullstack',
-                'email' => 'yusuf@email.com',
-                'instagram' => '@yusuf',
-                'github' => 'github.com/yusuf',
-                'linkedin' => 'linkedin.com/in/yusuf'
-            ],
-            [
-                'nama' => 'Siti Rahmawati',
-                'nim' => '24104410009',
-                'peran' => 'Fullstack',
-                'email' => 'rahma@email.com',
-                'instagram' => '@rahma',
-                'github' => 'github.com/rahma',
-                'linkedin' => 'linkedin.com/in/rahma'
-            ]
+        $hero = [
+            'judul' => 'Hubungi Kami',
+            'subjudul' => 'Silakan kirim pesan atau pertanyaan Anda'
         ];
 
-        return view('contact', compact('anggota'));
+        $kontak = [
+            'email' => 'kelompok3@gmail.com',
+            'telepon' => '0812-3456-7890',
+            'alamat' => 'Blitar, Indonesia',
+            'deskripsi' => 'Jika ada pertanyaan terkait website atau proyek ini, silakan hubungi kami melalui form atau kontak di samping.'
+        ];
+
+        return view('contact', compact('hero', 'kontak'));
     }
 }
